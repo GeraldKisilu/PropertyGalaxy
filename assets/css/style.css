@@ -243,6 +243,21 @@ a {
 
 }
 
+.header-bottom-actions-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px; /* Rounded corners */
+    color: white; /* Text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.header-bottom-actions-btn:hover {
+    background-color: #007bff85; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
 .section-subtitle {
     color: var(--orange-soda);
     font-size: var(--fs-5);
@@ -253,6 +268,10 @@ a {
     border-radius: 50px;
     margin-inline: auto;
     margin-bottom: 15px;
+}
+.header-top-btn:hover {
+    background-color: #007bff8e;
+    box-shadow: 2px 2px 4px rgb(255, 255, 255);
 }
 
 .section-title {
@@ -391,10 +410,6 @@ a {
     border-radius: 5px;
 }
 
-.header-top-btn:hover {
-    background-color: #ffd900;
-    box-shadow: 2px 2px 4px rgb(255, 255, 255);
-}
 
 .card-banner img {
     width: 100%;
@@ -512,7 +527,7 @@ a {
 .navbar-link:hover {
     background-color: rgba(135, 207, 235, 0.39);
     border-radius: 10px;
-    box-shadow: 3px 3px 4px black;
+    box-shadow: 3px 3px 4px #007bff;
 }
 
 
