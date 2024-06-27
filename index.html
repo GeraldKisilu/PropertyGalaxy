@@ -33,95 +33,101 @@
     - #HEADER
   -->
 
-  <header class="header" data-header>
-    <div class="overlay" data-overlay></div>
-    
-    <div class="header-top">
-        <div class="container">
-            <ul class="header-top-list">
-                <li>
-                    <a href="mailto:info@propertygalaxy.com" class="header-top-link">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <span>info@propertygalaxy.com</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="header-top-link">
-                        <ion-icon name="location-outline"></ion-icon>
-                        <address>15/A, Nairobi, Kenya</address>
-                    </a>
-                </li>
-            </ul>
+    <header class="header" data-header>
+        <div class="overlay" data-overlay></div>
 
-            <div class="wrapper">
-                <ul class="header-top-social-list">
-                    <li><a href="#" class="header-top-social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                    <li><a href="#" class="header-top-social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                    <li><a href="#" class="header-top-social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                    <li><a href="#" class="header-top-social-link"><ion-icon name="logo-pinterest"></ion-icon></a></li>
+        <div class="header-top">
+            <div class="container">
+                <ul class="header-top-list">
+                    <li>
+                        <a href="mailto:info@propertygalaxy.com" class="header-top-link">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <span>info@propertygalaxy.com</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="header-top-link">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <address>15/A, Nairobi, Kenya</address>
+                        </a>
+                    </li>
                 </ul>
-                <button class="header-top-btn">Add Listing</button>
+
+                <div class="wrapper">
+                    <ul class="header-top-social-list">
+                        <li><a href="#" class="header-top-social-link"><ion-icon name="logo-facebook"></ion-icon></a>
+                        </li>
+                        <li><a href="#" class="header-top-social-link"><ion-icon name="logo-twitter"></ion-icon></a>
+                        </li>
+                        <li><a href="#" class="header-top-social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+                        </li>
+                        <li><a href="#" class="header-top-social-link"><ion-icon name="logo-pinterest"></ion-icon></a>
+                        </li>
+                    </ul>
+                    <button class="header-top-btn">Add Listing</button>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="header-bottom">
-        <div class="video-container">
-            <video autoplay loop muted class="header-video">
-                <source src="assets/images/galaxy.mp4" type="video/mp4">
-                <!-- Add additional source elements for different video formats if needed -->
-                Your browser does not support the video tag.
-            </video>
-        </div>
+        <div class="header-bottom">
+            <div class="header-bottom">
+                <div class="video-container">
+                    <video autoplay loop muted class="header-video">
+                        <source src="assets/images/galaxy-vmake.mp4" type="video/mp4">
+y                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
 
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="./assets/images/proppertygalaxy.jfif" alt="Property Galaxy logo" style="width: 100px; height: auto;">
-            </a>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="./assets/images/proppertygalaxy.jfif" alt="Property Galaxy logo"
+                        style="width: 100px; height: auto;">
+                </a>
 
-            <nav class="navbar" data-navbar>
-                <div class="navbar-top">
-                    <a href="#" class="logo">
-                        <img src="./assets/images/proppertygalaxy.jfif" alt="propertygalaxy logo">
-                    </a>
-                    <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
-                        <ion-icon name="close-outline"></ion-icon>
+                <nav class="navbar" data-navbar>
+                    <div class="navbar-top">
+                        <a href="#" class="logo">
+                            <img src="./assets/images/proppertygalaxy.jfif" alt="propertygalaxy logo">
+                        </a>
+                        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                    </div>
+
+                    <div class="navbar-bottom">
+                        <ul class="navbar-list">
+                            <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+                            <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+                            <li><a href="#service" class="navbar-link" data-nav-link>Service</a></li>
+                            <li><a href="#property" class="navbar-link" data-nav-link>Property</a></li>
+                            <li><a href="#blog" class="navbar-link" data-nav-link>Blog</a></li>
+                            <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="header-bottom-actions">
+                    <button class="header-bottom-actions-btn" aria-label="Search">
+                        <ion-icon name="search-outline"></ion-icon>
+                        <span>Search</span>
+                    </button>
+                    <button class="header-bottom-actions-btn" aria-label="Profile">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <span>Profile</span>
+                    </button>
+                    <button class="header-bottom-actions-btn" aria-label="Cart">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span>Cart</span>
+                    </button>
+                    <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+                        <span>Menu</span>
                     </button>
                 </div>
-
-                <div class="navbar-bottom">
-                    <ul class="navbar-list">
-                        <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
-                        <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
-                        <li><a href="#service" class="navbar-link" data-nav-link>Service</a></li>
-                        <li><a href="#property" class="navbar-link" data-nav-link>Property</a></li>
-                        <li><a href="#blog" class="navbar-link" data-nav-link>Blog</a></li>
-                        <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-            <div class="header-bottom-actions">
-                <button class="header-bottom-actions-btn" aria-label="Search">
-                    <ion-icon name="search-outline"></ion-icon>
-                    <span>Search</span>
-                </button>
-                <button class="header-bottom-actions-btn" aria-label="Profile">
-                    <ion-icon name="person-outline"></ion-icon>
-                    <span>Profile</span>
-                </button>
-                <button class="header-bottom-actions-btn" aria-label="Cart">
-                    <ion-icon name="cart-outline"></ion-icon>
-                    <span>Cart</span>
-                </button>
-                <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
-                    <ion-icon name="menu-outline"></ion-icon>
-                    <span>Menu</span>
-                </button>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
 
 
@@ -230,7 +236,7 @@
                         </ul>
 
                         <p class="callout">
-                            "The only place that can make you comfortable enough to stay by yourself, 
+                            "The only place that can make you comfortable enough to stay by yourself,
                             with your companion and your whole extended family."
                         </p>
 
@@ -1212,94 +1218,101 @@
     - #FOOTER
   -->
 
-  <footer class="footer">
+    <footer class="footer">
 
-    <div class="footer-top">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/proppertygalaxy.jfif" alt="PropertyGalaxy logo"
+                            style="width: 100px; height: auto;">
+                    </a>
+                    <p class="section-text">
+                        Find your dream house with ease at [PropertyGalaxy], where diverse listings and
+                        expert guidance meet your real estate needs. Explore, discover, and make informed decisions
+                        with us today!
+                    </p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <a href="#" class="contact-link">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <address>Headquarters, Nairobi, Kenya</address>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+254111564940" class="contact-link">
+                                <ion-icon name="call-outline"></ion-icon>
+                                <span>+254 111 564 940</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:contact@propertygalaxy.com" class="contact-link">
+                                <ion-icon name="mail-outline"></ion-icon>
+                                <span>contact@propertygalaxy.com</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="social-list">
+                        <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="#" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-link-box">
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Company</p>
+                        </li>
+                        <li><a href="#" class="footer-link">About</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">All Products</a></li>
+                        <li><a href="#" class="footer-link">Locations Map</a></li>
+                        <li><a href="#" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Contact us</a></li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Services</p>
+                        </li>
+                        <li><a href="#" class="footer-link">Order tracking</a></li>
+                        <li><a href="#" class="footer-link">Wish List</a></li>
+                        <li><a href="#" class="footer-link">Login</a></li>
+                        <li><a href="#" class="footer-link">My account</a></li>
+                        <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+                        <li><a href="#" class="footer-link">Promotional Offers</a></li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Customer Care</p>
+                        </li>
+                        <li><a href="#" class="footer-link">Login</a></li>
+                        <li><a href="#" class="footer-link">My account</a></li>
+                        <li><a href="#" class="footer-link">Wish List</a></li>
+                        <li><a href="#" class="footer-link">Order tracking</a></li>
+                        <li><a href="#" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="footer-bottom">
         <div class="container">
-            <div class="footer-brand">
-                <a href="#" class="logo">
-                    <img src="./assets/images/proppertygalaxy.jfif" alt="PropertyGalaxy logo" style="width: 100px; height: auto;">
-                </a>
-                <p class="section-text">
-                    Find your dream house with ease at [PropertyGalaxy], where diverse listings and
-                    expert guidance meet your real estate needs. Explore, discover, and make informed decisions
-                    with us today!
-                </p>
 
-                <ul class="contact-list">
-                    <li>
-                        <a href="#" class="contact-link">
-                            <ion-icon name="location-outline"></ion-icon>
-                            <address>Headquarters, Nairobi, Kenya</address>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+254111564940" class="contact-link">
-                            <ion-icon name="call-outline"></ion-icon>
-                            <span>+254 111 564 940</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:contact@propertygalaxy.com" class="contact-link">
-                            <ion-icon name="mail-outline"></ion-icon>
-                            <span>contact@propertygalaxy.com</span>
-                        </a>
-                    </li>
-                </ul>
+            <p class="copyright">
+                &copy; 2024 <a href="https://github.com/GeraldKisilu">Kisilu.</a> All Rights Reserved
+            </p>
 
-                <ul class="social-list">
-                    <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                    <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                    <li><a href="#" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                    <li><a href="#" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                </ul>
-            </div>
-
-            <div class="footer-link-box">
-                <ul class="footer-list">
-                    <li><p class="footer-list-title">Company</p></li>
-                    <li><a href="#" class="footer-link">About</a></li>
-                    <li><a href="#" class="footer-link">Blog</a></li>
-                    <li><a href="#" class="footer-link">All Products</a></li>
-                    <li><a href="#" class="footer-link">Locations Map</a></li>
-                    <li><a href="#" class="footer-link">FAQ</a></li>
-                    <li><a href="#" class="footer-link">Contact us</a></li>
-                </ul>
-
-                <ul class="footer-list">
-                    <li><p class="footer-list-title">Services</p></li>
-                    <li><a href="#" class="footer-link">Order tracking</a></li>
-                    <li><a href="#" class="footer-link">Wish List</a></li>
-                    <li><a href="#" class="footer-link">Login</a></li>
-                    <li><a href="#" class="footer-link">My account</a></li>
-                    <li><a href="#" class="footer-link">Terms & Conditions</a></li>
-                    <li><a href="#" class="footer-link">Promotional Offers</a></li>
-                </ul>
-
-                <ul class="footer-list">
-                    <li><p class="footer-list-title">Customer Care</p></li>
-                    <li><a href="#" class="footer-link">Login</a></li>
-                    <li><a href="#" class="footer-link">My account</a></li>
-                    <li><a href="#" class="footer-link">Wish List</a></li>
-                    <li><a href="#" class="footer-link">Order tracking</a></li>
-                    <li><a href="#" class="footer-link">FAQ</a></li>
-                    <li><a href="#" class="footer-link">Contact us</a></li>
-                </ul>
-            </div>
         </div>
     </div>
-</footer>
-
-
-        <div class="footer-bottom">
-            <div class="container">
-
-                <p class="copyright">
-                    &copy; 2024 <a href="https://github.com/GeraldKisilu">Kisilu.</a> All Rights Reserved
-                </p>
-
-            </div>
-        </div>
 
     </footer>
 
