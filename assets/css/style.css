@@ -250,7 +250,7 @@ a {
     padding: 5px 20px;
     background: hsla(221, 100%, 62%, 0.404);
     width: max-content;
-    border-radius: 50px;
+    border-radius: 5    0px;
     margin-inline: auto;
     margin-bottom: 15px;
 }
@@ -334,7 +334,6 @@ a {
 .header-top {
     padding: 10px 0;
     border-bottom: 1px solid gold;
-    /* Adjust border color */
 }
 
 .header-top-list {
@@ -348,7 +347,7 @@ a {
 }
 
 .header-top-link {
-    color: #fff;
+    color: rgba(255, 217, 0, 0.479);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -386,16 +385,14 @@ a {
     position: relative;
     width: 85%;
     height: 70vh;
-    /* Full viewport height */
     margin: 0;
     background-color: #f0f0f0;
-    /* Background color for when image doesn't fill container */
     border-radius: 5px;
 }
 
 .header-top-btn:hover {
-    background-color: #eee;
-    /* Button background color on hover */
+    background-color: #ffd900;
+    box-shadow: 2px 2px 4px rgb(255, 255, 255);
 }
 
 .card-banner img {
@@ -425,11 +422,8 @@ a {
 
 
 .header-top-btn {
-    background: var(--orange-soda);
-    color: var(--white);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-700);
-    padding: 4px 15px;
+    background: white;
+    border-radius: 20px;
 }
 
 .header-top-btn:is(:hover, :focus) {
