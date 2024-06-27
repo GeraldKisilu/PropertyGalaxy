@@ -620,7 +620,7 @@ a {
 
 .about-banner {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .about-banner>img {
@@ -1942,4 +1942,8 @@ a {
         flex-basis: 700px;
     }
 
+}
+
+.copyright{
+    font-family: 'Times New Roman', Times, serif;
 }
