@@ -49,3 +49,25 @@ window.addEventListener("scroll", function () {
   window.scrollY >= 400 ? header.classList.add("active")
     : header.classList.remove("active");
 }); 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('[data-navbar]');
+    const navOpenBtn = document.querySelector('[data-nav-open-btn]');
+    const navCloseBtn = document.querySelector('[data-nav-close-btn]');
+    const overlay = document.querySelector('[data-overlay]');
+
+    navOpenBtn.addEventListener('click', function() {
+        navbar.classList.add('active');
+        overlay.classList.add('active');
+    });
+
+    navCloseBtn.addEventListener('click', function() {
+        navbar.classList.remove('active');
+        overlay.classList.remove('active');
+    });
+
+    overlay.addEventListener('click', function() {
+        navbar.classList.remove('active');
+        overlay.classList.remove('active');
+    });
+});
