@@ -250,7 +250,7 @@ a {
     padding: 5px 20px;
     background: hsla(221, 100%, 62%, 0.404);
     width: max-content;
-    border-radius: 5    0px;
+    border-radius: 50px;
     margin-inline: auto;
     margin-bottom: 15px;
 }
@@ -334,6 +334,7 @@ a {
 .header-top {
     padding: 10px 0;
     border-bottom: 1px solid gold;
+    /* Adjust border color */
 }
 
 .header-top-list {
