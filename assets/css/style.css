@@ -513,6 +513,7 @@ a {
 .navbar-link:hover {
     background-color: rgba(135, 207, 235, 0.39);
     border-radius: 10px;
+    box-shadow: 3px 3px 4px black;
 }
 
 
